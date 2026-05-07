@@ -32,7 +32,7 @@ This repository contains the following items:
 * `Data_Generation:` this folder contains the Data_generator.ipynb file, which id needed to create synthetic datasets, with configurable separation levels between groups, noise, and punctuality profiles.
 * `Experiments_Visualization:` this folder contains the Data_generator.ipynb file, which id needed to create synthetic datasets, with configurable separation levels between groups, noise, and punctuality profiles.
 * `Experiments_Visualization:` in this folder we can find the Visualization.ipynb file, which contains the code to simulate some experiments and generate the graphs.
-* `Vehicles_Data:` This folder contains the data and configuration files used to run the experiments. It includes two subfolders:
+* `Data:` This folder contains the data and configuration files used to run the experiments. It includes two subfolders:
   * `Original_Data`: Contains the CSV data files used as input for the clustering algorithms.
   * `Clustering_Results`: Contains CSV files with clustered data generated for different scenarios. These files are the results of the clustering process using different methods (DBSCAN and K-means). They are used as input for the genetic algorithm.
 
