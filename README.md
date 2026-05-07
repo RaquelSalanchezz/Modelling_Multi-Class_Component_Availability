@@ -28,7 +28,14 @@ This repository contains the following items:
 * `JavaAlgorithms`: this folder contains the Java project. In the src package we can find two files:
   * `ExecuteGeneticAlgorithm.java`: this file handles the execution of the GSMCA.
   * `ModelCheckFromFiles.java`: this file is responsible for evaluate the model launching PRISM. It consist on a version of a PRISM API example adapted to our project.
- 
+* `Clustering_Experiments:` this folder contains the Clustering_experiments.ipynb file, which includes the code to apply and compare clustering methods (KMeans and DBSCAN)s.
+* `Data_Generation:` this folder contains the Data_generator.ipynb file, which id needed to create synthetic datasets, with configurable separation levels between groups, noise, and punctuality profiles.
+* `Experiments_Visualization:` this folder contains the Data_generator.ipynb file, which id needed to create synthetic datasets, with configurable separation levels between groups, noise, and punctuality profiles.
+* `Experiments_Visualization:` in this folder we can find the Visualization.ipynb file, which contains the code to simulate some experiments and generate the graphs.
+* `Vehicles_Data:` This folder contains the data and configuration files used to run the experiments. It includes two subfolders:
+  * `Original_Data`: Contains the CSV data files used as input for the clustering algorithms.
+  * `Clustering_Results`: Contains CSV files with clustered data generated for different scenarios. These files are the results of the clustering process using different methods (DBSCAN and K-means). They are used as input for the genetic algorithm.
+
 ## Configuration File Structure
 The configuration files define a standardized schema for modeling resource allocation scenarios, such as electric vehicle charging or robotic patient feeding. Each file describes two main classes: a **Consumer** (e.g., ElectricVehicle, Patient, Crop) and a **Resource** (e.g., Charger, Robot), including their attributes and methods.
 
