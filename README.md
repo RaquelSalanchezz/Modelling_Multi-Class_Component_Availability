@@ -53,7 +53,7 @@ To run the code, you need to do it within Eclipse IDE for Java and Visual Studio
 
 3. If the project is not recognized as a Java Project, right-click on it in the Project Explorer, go to Configure > Convert to Java Project, and Eclipse will set it up as a Java Project. Additionally, make sure all required dependencies are configured in the Build Path to avoid errors.
 
-## Synthetic Data Generation
+### Synthetic Data Generation
 The synthetic datasets used in this project simulate realistic scenarios with configurable consumer behaviors, schedules, conditions, and usage patterns. Different dataset variants are generated to evaluate clustering robustness, including datasets with varying group separation levels and configurable noise. These datasets are later used as input for the clustering algorithms and the genetic optimization process.
 
 ### Execution of the clustering algorithms
