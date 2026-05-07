@@ -53,6 +53,9 @@ To run the code, you need to do it within Eclipse IDE for Java and Visual Studio
 
 3. If the project is not recognized as a Java Project, right-click on it in the Project Explorer, go to Configure > Convert to Java Project, and Eclipse will set it up as a Java Project. Additionally, make sure all required dependencies are configured in the Build Path to avoid errors.
 
+## Synthetic Data Generation
+The synthetic datasets used in this project simulate realistic scenarios with configurable consumer behaviors, schedules, conditions, and usage patterns. Different dataset variants are generated to evaluate clustering robustness, including datasets with varying group separation levels and configurable noise. These datasets are later used as input for the clustering algorithms and the genetic optimization process.
+
 ### Execution of the clustering algorithms
 You can execute the clustering experiments using the code found in Clustering_experiments.ipynb. To do so, open the notebook in Google Colab, Jupyter Notebook, or a similar environment and run all cells in order. The notebook will load the input data from the Vehicles_Data/ folder, apply clustering methods (such as K-Means) , and display the corresponding visualizations and comparisons. If you want to modify the clustering parameters (for example, the number of clusters, distance metric, or initialization method) or use different input data, you can edit the configuration variables defined at the beginning of the code. Once executed, you can export the clustered results using "df.to_csv('Vehicles_Data/vehicles_clustered.csv', index=False)", and the generated clusters can later be used to execute the main algorithm and visualization scripts located under Experiments_Visualization/ (as explained in the following sections)..
 
