@@ -12,8 +12,8 @@ The Java project relies on the following libraries and tools to function correct
 2. **PRISM Library**: The project utilizes PRISM, a probabilistic model checker, including its components such as `Prism`, `PrismLog`, and related modules for parsing models (`parser.ast`), simulating modules (`simulator`), and handling properties files. To execute the project you must have the PRISM libraries integrated and accessible in the project setup. For more information check https://github.com/prismmodelchecker/prism-api and https://github.com/prismmodelchecker/prism prism.
 
 Python files require the installation of the following libraries for its development and execution:
-1. **NumPy** 1.26.2
-2. **Matplotlib** 3.8.2
+1.  **NumPy** 1.26.2
+2.  **Matplotlib** 3.8.2
 
 ## Repository structure
 This repository contains the following items:
