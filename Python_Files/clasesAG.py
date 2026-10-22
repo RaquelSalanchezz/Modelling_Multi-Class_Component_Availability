@@ -4,6 +4,7 @@ from __future__ import division, print_function
 import generated_classes
 import random
 
+
 models_dir='C:/Users/raque/OneDrive/Escritorio/prueba/general_opt_system/models/'
 config_dir="C:\\Users\\raque\\OneDrive\\Escritorio\\prueba\\general_opt_system\\config_files\\"
 
