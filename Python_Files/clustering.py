@@ -23,6 +23,7 @@ from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.compose import ColumnTransformer
 
 
+
 # ==============================================================================
 # SCENARIO: VEHICLES
 # ==============================================================================
