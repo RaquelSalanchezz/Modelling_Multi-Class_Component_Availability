@@ -25,7 +25,7 @@ public class ExecuteGeneticAlgorithm {
      * @param scriptPath       Full path to clustering.py
      * @param outputKmeansCsv  Full path where the KMeans clustered CSV will be saved
      * @param outputDbscanCsv  Full path where the DBSCAN clustered CSV will be saved
-     * @param scenario         Scenario to run: "vehicles" or "patients"
+     * @param scenario         Scenario to run: "vehicles" or "patients."
      */
     public static void runClustering(String python3Path, String scriptPath,
                                      String outputKmeansCsv, String outputDbscanCsv,
